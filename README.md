@@ -11,7 +11,7 @@ A Python script to organize and clean up files in a specified directory by sorti
 
 ## Installation
 
-Clone this repository or download the script file to your local machine. Ensure you have Python 3 installed.
+Clone this repository or download the script file `file_organizer.py` to your local machine. Ensure you have Python 3 installed.
 
 ## Usage
 
