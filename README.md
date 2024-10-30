@@ -25,3 +25,15 @@ python file_organizer.py [OPTIONS]
 
 - `-dp` or `--dir_path`: Specify the directory path you want to organize. If not specified, it defaults to the Downloads directory in the user's home folder.
 - `-tl` or `--time_limit`: Specify the number of years after which files will be deleted if they haven’t been modified. Default is 2 years.
+
+## Examples
+
+Organize the default `Downloads` folder, deleting files older than 2 years:
+```bash
+python file_organizer.py
+```
+
+Organize the `Desktop` folder, deleting files older than 3 years:
+```bash
+python file_organizer.py -dp "C:\Users\YourName\Desktop" -tl 3
+```
